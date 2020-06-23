@@ -36,10 +36,11 @@ li>h1{
     border-top: solid 1px black;
 }
 
-.selected {
+.selected a:first-of-type{
     color: black;
     font-weight: bold;
 }
+
 
 a>div {
     font-size: 0.8rem;
