@@ -1,0 +1,259 @@
+body {
+    margin: auto;
+}
+
+header img {
+    z-index: -1;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    margin-bottom: 50px;
+}
+
+header nav {
+    text-align: center;
+    font-size: xx-large;
+    background-color: black;
+    padding: 10px 50px 10px 50px;
+    font-family: interstate, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: yellow;
+    margin-top: 700px;
+    margin-bottom: 50px;
+}
+
+header span:first-of-type {
+    font-family: interstate, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 150px;
+    color: red;
+    margin: 20% 0 40% 0;
+}
+
+header span:last-of-type {
+    font-family: interstate, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 170px;
+    color: red;
+    margin: 15% 0 35% 0;
+}
+
+header h4 {
+    font-family: interstate, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: yellow;
+    font-size: 25px;
+    margin-left: 65%;
+}
+
+.career-history {
+    background-color: white;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    position: relative;
+    z-index: -2;
+}
+
+.career-history h1 {
+    font-family: interstate, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 75px;
+    color: red;
+}
+
+.career-history div {
+    background-color: red;
+    width: 25%;
+    padding: 15px 15px 5px 15px;
+    position: relative;
+    font-family: interstate, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    position: relative;
+    margin-right: 25px;
+}
+
+.career-history img {
+    width: 50%;
+}
+
+.career-history .box {
+    z-index: -1;
+    background-color: black;
+    width: 80%;
+    height: 300px;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    padding-bottom: 35em;
+}
+
+.training {
+    background-color: black;
+    position: relative;
+    z-index: -2;
+}
+
+.training div {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.training h1 {
+    text-align: right;
+    font-family: interstate, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 8em;
+    color: yellow;
+    margin-right: 3%;
+    margin-bottom: 4em;
+}
+
+.pone {
+    width: 30%;
+    height: auto;
+    font-size: 24px;
+    border: 3px solid red;
+    margin-left: 30px;
+    font-family: interstate, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    padding: 20px;
+    color: yellow;
+    margin-bottom: 10em;
+}
+
+.ptwo {
+    width: 60%;
+    height: auto;
+    font-size: 35px;
+    font-weight: 600;
+    border: 3px solid red;
+    border-left: none;
+    font-family: interstate, sans-serif;
+    font-style: bold;
+    padding: 20px;
+    color: yellow;
+    margin-bottom: 10em;
+}
+
+.training img {
+    width: 100%;
+    height: auto;
+    z-index: -1;
+    position: absolute;
+    opacity: 0.8;
+}
+
+.background {
+    background-color: black;
+    width: 100%;
+    z-index: -5;
+    position: absolute;
+    top: -50px;
+    height: 1220px;
+}
+
+.records {
+    position: relative;
+}
+
+.records h1 {
+    font-family: interstate, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    color: yellow;
+    background-color: red;
+    padding: 5px;
+    text-align: center;
+    font-size: 4em;
+    margin-bottom: 5.5em;
+}
+
+.records img:first-of-type {
+    width: 55%;
+    height: auto;
+    z-index: -1;
+    position: relative;
+    left: 0;
+    bottom: 41em;
+}
+
+.records img:last-of-type {
+    width: 35%;
+    height: auto;
+    z-index: -1;
+    position: relative;
+    left: 55%;
+    bottom: 85em;
+}
+
+.records span {
+    font-family: interstate, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: blue;
+}
+
+.uno {
+    background-color: yellow;
+    width: 45%;
+    margin-left: 25px;
+    font-family: interstate, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    padding: 15px;
+
+}
+
+.records div:last-of-type {
+    background-color: red;
+    width: 35%;
+    margin-left: 55%;
+    font-family: interstate, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    padding: 15px;
+    position: relative;
+    top: -1360px;
+}
+
+.sources {
+    position: relative;
+    font-family: interstate, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.sources h1 {
+    color: red;
+    margin-left: 30px;
+    font-size: 50px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 1300px;
+
+}
+
+.sources ul {
+    color: yellow;
+    position: absolute;
+    bottom: 1200px;
+}
+
+.sources img {
+  width: 100%;
+  position: absolute;
+  bottom: 400px;
+  z-index: -1;
+}
