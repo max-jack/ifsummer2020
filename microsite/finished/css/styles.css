@@ -1,0 +1,339 @@
+body {
+    min-width: 320px;
+    max-width: fit-content;
+    margin: auto;
+    font-family: interstate, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+header {
+    background: url(../images/one.jpg);
+    background-size: cover; 
+    background-position: center;
+    width: 100vw;
+    height: 105vh;
+    position: relative;
+}
+
+header h1:first-of-type {
+    font-size: 13vw;
+    font-weight: 300;
+    color: red;
+    margin: 0;
+    padding-top: 33px;
+    text-align: center;
+}
+
+header h1:last-of-type {
+    font-size: 15vw;
+    font-weight: 600;
+    color: red;
+    margin: 0;
+    text-align: center;
+    padding-right: 110px;
+}
+
+header h4 {
+    color: yellow;
+    font-size: 35px;
+    font-weight: 500;
+    text-align: right;
+    padding-right: 120px;
+    margin-top: 10vh;
+}
+
+header nav {
+    background-color: black;
+    font-weight: 300;
+    padding: 30px;
+    text-align: center;
+    font-size: 2.2vw;
+    margin-top: 15vh;
+    position: absolute;
+    bottom: 0;
+    left: 22vw;
+}
+
+header nav a {
+    color: yellow;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+header nav a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+header hr {
+    margin: 0;
+    border: 2px solid red;
+    margin: 5px 0 5px 0;
+}
+
+.career-history {
+    background-color: white;
+    width: 100vw;
+    height: 105vh;
+    position: relative;
+    z-index: -3;
+}
+
+.career-history h1 {
+    color: red;
+    font-size: 5vw;
+    font-weight: 700;
+    padding: 10px 0 0 10px;
+    padding-left: 2em;
+}
+
+.career-history div h3 {
+    font-weight: bold;
+}
+
+.career-history p:empty {
+    background: black;
+    width: 80vw;
+    height: 105vh;
+    position: absolute;
+    z-index: -2;
+    top: -10px;
+    left: 0;
+}
+
+.career-history div:first-of-type {
+    background-color: black;
+    z-index: -5;
+}
+
+.career-history .left {
+    margin: 0 100px 0 3vw;
+    padding: 10px;
+    width: 28vw;
+    position: absolute;
+    font-size: 1.2vw;
+    left: 1vw;
+    top: 50vh;
+    background-color: red;
+}
+
+.career-history .divtwo {
+    padding: 10px;
+    background-color: red;
+    width: 25vw;
+    font-size: 1.2vw;
+    position: absolute;
+    left: 38vw;
+    bottom: 48vh;
+}
+
+.career-history div:last-of-type {
+    background-color: red;
+    position: absolute;
+    left: 73vw;
+    bottom: 5vh;
+    width: 25vw;
+    font-size: 1.2vw;
+    padding: 10px;
+}
+
+.imgone {
+    width: 110%;
+    height: auto;
+    z-index: -1;
+    position: absolute;
+    bottom: -20px;
+    left: -20px;
+}
+
+.imgtwo {
+    width: 128%;
+    height: 100%;
+    z-index: -1;
+    position: absolute;
+    top: -25px;
+    left: 25vw;
+    border: 25px solid black;
+    border-style: solid solid solid none;
+}
+
+.imgthree {
+    width: 145%;
+    height: 100%;
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    right: 25vw;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.training {
+    background-image: url(../images/six.jpg);
+    background-size: cover;
+    width: 100vw;
+    height: 105vh;
+    background-position: center;
+
+}
+
+.training h1 {
+    text-align: right;
+    color: yellow;
+    margin: 25px;
+    font-size: 10vw;
+    font-weight: 300;
+    margin-bottom: 45vh;
+}
+
+
+.training .pone {
+    color: yellow;
+    font-size: 1.5vw;
+    width: 25%;
+    margin-left: 30px;
+    padding: 15px;
+}
+
+.training div p:last-of-type {
+    color: yellow;
+    font-size: 3vw;
+    width: 66%;
+    padding: 15px;
+    margin-bottom: 0;
+}
+
+.training div {
+    display: flex;
+}
+
+.records {
+    background-color: black;
+    width: 100vw;
+    height: 105vh;
+    position: relative;
+    z-index: -2;
+}
+
+.records h1 {
+    background-color: red;
+    font-size: 6vw;
+    font-weight: 600;
+    padding: 5px;
+    color: yellow;
+    position: absolute;
+    top: -5vh;
+}
+
+.records div:first-of-type {
+    width: 40vw;
+    background-color: yellow;
+    padding: 15px;
+    position: relative;
+    font-size: 1.2vw;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.records div:first-of-type span {
+    color: red;
+    font-weight: 700;
+}
+
+.first {
+    width: 120%;
+    position: absolute;
+    left: 0;
+    bottom: 100%;
+    z-index: -1;
+}
+
+.records div:last-of-type {
+    width: 30vw;
+    background-color: red;
+    font-size: 1.2vw;
+    padding: 15px;
+    position: relative;
+    position: absolute;
+    top: 15vh;
+    left: 51.3vw;
+
+}
+
+.records div:last-of-type span {
+    color: yellow;
+    font-weight: 700;
+}
+
+.second {
+    width: 148%;
+    height: auto;
+    position: absolute;
+    left: 0;
+}
+
+.records .flextwo {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sources {
+    background-image: url(../images/source.jpg);
+    background-size: cover;
+    width: 100vw;
+    height: 105vh;
+    background-position: center;
+}
+
+.sources h1 {
+    color: yellow;
+    font-weight: 700;
+    font-size: 10vw;
+    padding: 50px 0 50px 50px;
+    margin: 0;
+}
+
+.sources li a {
+    color: red;
+}
+
+.sources ul {
+    background-color: black;
+    color: yellow;
+    padding: 15px;
+    margin-left: 25px;
+    list-style: none;
+    width: fit-content;
+    margin-right: 15px;
+}
+
+.sources li a:hover {
+    color: yellow;
+}
+
+@media (max-width: 1050px) {
+    .career-history .imgtwo {
+        border: 10px solid black;
+        top: -1.5vh;
+        left: 24vw;
+    }
+    .career-history .imgthree {
+        right: 20vw;
+    }
+    .career-history div:last-of-type {
+        left: 70vw;
+    }
+    
+}
+
+@media (max-width: 640px) {
+    .sources ul {
+        font-size: 10px;
+    }
+}
